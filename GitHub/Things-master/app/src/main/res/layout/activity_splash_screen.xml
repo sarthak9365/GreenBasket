@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_things"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THINGS"
+        android:textAlignment="center"
+        android:textSize="@dimen/_50ssp"
+        android:textColor="#8080"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/ic_round_chat_24"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp" />
+
+
+
+
+</RelativeLayout>
